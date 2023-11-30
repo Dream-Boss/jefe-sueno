@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Virtual con Carrito de Compras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <!-- ... (código existente) ... -->
+    </header>
+
+    <section id="productos">
+        <h2>Productos</h2>
+        <div class="productos-container">
+            <!-- Producto de ejemplo 1 -->
+            <div class="producto" data-producto="1">
+                <img src="producto1.jpg" alt="Producto 1">
+                <h3>Camiseta Casual</h3>
+                <p class="precio">$29.99</p>
+                <button class="btn-add-to-cart">Añadir al carrito</button>
+            </div>
+
+            <!-- Producto de ejemplo 2 -->
+            <div class="producto" data-producto="2">
+                <img src="producto2.jpg" alt="Producto 2">
+                <h3>Pantalones de Mezclilla</h3>
+                <p class="precio">$49.99</p>
+                <button class="btn-add-to-cart">Añadir al carrito</button>
+            </div>
+            <!-- Repite para otros productos -->
+        </div>
+    </section>
+
+    <section id="carrito">
+        <h2>Carrito de Compras</h2>
+        <ul id="lista-carrito"></ul>
+    </section>
+
+    <footer>
+        <!-- ... (código existente) ... -->
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
